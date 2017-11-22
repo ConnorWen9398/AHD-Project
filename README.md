@@ -3,15 +3,15 @@
 
 Week1:
 Yuchen Zhang:
-ALU, Control Unit(Decoder)，RC5
+ALU, Control Unit(Decoder)，RC5 machine code(after we have assembly code)
 
-Liu Yang
+Liu Yang:
 Dmem, RC5 assembly（encode)
 
-Zhiyu Wen
+Zhiyu Wen:
 InstrMem, RC5 assembly(decode)
 
-Junchen Su
+Junchen Su:
 Register File, RC5 assembly（key generation）
 
 下周三之前提交至github：
