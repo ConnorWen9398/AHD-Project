@@ -2,16 +2,21 @@
 2017 Fall AHD Project
 
 Week1:
+
 Yuchen Zhang:
+
 ALU, Control Unit(Decoder)，RC5 machine code(after we have assembly code)
 
 Liu Yang:
+
 Dmem, RC5 assembly（encode)
 
 Zhiyu Wen:
+
 InstrMem, RC5 assembly(decode)
 
 Junchen Su:
+
 Register File, RC5 assembly（key generation）
 
 下周三之前提交至github：
