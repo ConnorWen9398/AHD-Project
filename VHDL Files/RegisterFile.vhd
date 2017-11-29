@@ -84,6 +84,7 @@ architecture Behavioral of RegisterFile is
   "00000000000000000000000000000000",--30
   "00000000000000000000000000000000" --31
   );
+  
 begin
   process (rdreg1,rdreg2,regmem)
   begin
@@ -140,10 +141,10 @@ begin
 		end if;
 	end process;
 	
-	encA<=regmem(17);
-	encB<=regmem(18);
-	decA<=regmem(24);
-	decB<=regmem(25);
+	encA<=regmem(31);
+	encB<=regmem(30);
+	decA<=regmem(29);
+	decB<=regmem(28);
 	
 	
 

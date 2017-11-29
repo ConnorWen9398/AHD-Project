@@ -58,8 +58,8 @@ component Control_Unit is
            MemToReg : out  STD_LOGIC;
            RegWrite : out  STD_LOGIC;
            MemWrite : out  STD_LOGIC;
-			  shiftleft: out std_logic;
-			  shiftright: out std_logic;
+			  shiftl: out std_logic;
+			  shiftr: out std_logic;
 			  Jump : out STD_LOGIC;
 			  BranchNE : out std_logic;
            Branch : out  STD_LOGIC;
@@ -76,7 +76,7 @@ component ALU is
 		  ALUOP: in std_logic_vector(2 downto 0);
 		  zero:out std_logic;
 		  lessthan:out std_logic;
-	     ALU_result :out std_logic_vector(31 downto 0));
+	     ALU_Result :out std_logic_vector(31 downto 0));
 end component;	 
 
 component RegisterFile is

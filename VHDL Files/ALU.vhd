@@ -42,7 +42,7 @@ entity ALU is
            ALUSrc: in STD_LOGIC;
            Zero : out STD_LOGIC;
            LessThan : out STD_LOGIC;
-           ALUResult : out STD_LOGIC_VECTOR(31 downto 0)
+           ALU_Result : out STD_LOGIC_VECTOR(31 downto 0)
          );     
 end ALU;
 
@@ -60,7 +60,7 @@ begin
             '0';
     LessThan <= '1' when(ALUOutput(31) = '1') else
                 '0';
-    ALUResult <= ALUOutput;
+    ALU_Result <= ALUOutput;
          
 process(ALUOp, InputA, InputB)
 begin
