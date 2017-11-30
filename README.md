@@ -26,3 +26,16 @@ Register File, RC5 assembly（key generation）
 汇编码转机器码Link： https://www.youtube.com/watch?v=teRL3uhO_rg
 
 下周三一起做cpu整合的代码和仿真，以及timing simulation。
+
+
+
+
+Week2:
+周日之前完成！！！
+1.每个人将自己上周做的部分写出testbench来，仿真，截图做成PDF，代码PDF都上传至GITHUB Testbench文件夹。
+
+Junchen Su: 总的functional simulation
+
+Zhiyu Wen: PPT
+
+Liu Yang: testbench for I.F and other components we didnt cover last week
