@@ -171,7 +171,7 @@ RegFile : RegisterFile PORT MAP(clk,reset,RegWrite,instr(25 downto 21),instr(20 
 WriteAddr <= instr(20 downto 16) when RegDst = '0' else
 					 instr(15 downto 11);
 instruction <= instr;
-data_vld<='1' when instr="11111100000000000000000000000000" else
+data_vld<='1' when instr="11111111111111111111111111111111" else
           '0';
 dout<=encA&encB when sel='0'else
       decA&decB;
