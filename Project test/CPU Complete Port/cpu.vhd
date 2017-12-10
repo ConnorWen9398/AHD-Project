@@ -195,7 +195,7 @@ instruction <= instr;
 
 Rs<=Rs_buff;
 Rd<=Rd_buff;
-Rt<=Rt_buff;
+Rt<=DmemOut when MemToReg='1'else Rt_buff;
 Imm<=Imm_buff;
 ins_num<=ins_num_buff;
 
